@@ -1,0 +1,17 @@
+version: "3.1"
+
+services:
+  db:
+    image: mysql:8.0.36
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: mglFuture7@$
+      MYSQL_DATABASE: mgldefi
+  maildev:
+    image: maildev/maildev
+    ports:
+      - 1080:1080
+      - 1025:1025
