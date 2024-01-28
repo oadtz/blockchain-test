@@ -280,7 +280,7 @@ function Wallet() {
                           <AiFillBank className="inline-block mr-2" size={20} />
                         )}
                       </a>
-                      {t("Top Coins Price")}
+                      {t("Market Price")}
                     </div>
                     <p className="text-3xl font-bold myColor1 mt-2">
                       {t("ETH")}
