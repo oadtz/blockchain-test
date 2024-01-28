@@ -18,17 +18,17 @@ Clone this repository to your local machine using Git.
 
 Run Docker Compose to build and start the containers. You can choose one of the following commands:
 
-docker-compose up
+`docker-compose up`
 
 or
 
-docker-compose up --build
+`docker-compose up --build`
 
 ### Step 3: Start the Application
 
 Run the following commands:
 
-npm run dev
+`npm run dev`
 
 ### Step 3: Access the Application
 
